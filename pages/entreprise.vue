@@ -5,9 +5,11 @@
             <img class="main__bannercontainer__img" alt="logo" src="public/Media/flav2.jpg"/>
         </Div>
         <h1 class="main__title">Bienvenue chez Gourmet Flavors</h1>
+
         <h2 class="main__subtitle">
             Nos Produits et services
         </h2>
+            
         <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/fav7.jpg"/>
             <Div class="main__container__productcontainer">

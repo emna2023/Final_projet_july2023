@@ -1,17 +1,41 @@
 <template>
 
     <footer class="footer">
-        <div class="footer__container">
-            <img class="footer__container__img" alt="myphoto" src="public\Media\cedeg.png"/>
-            <div class="footer__container__subsection">
-                <h2>Coordonnées personelles: </h2>
-                <h2> Adresse: chaussée de wavre 17, 5030 Gembloux</h2>
-                <h2> Email: khemakhememna@cedeg.be</h2>
-                <h2> Tel: +32 455 14 77 23</h2>
+        <h2 class="footer__title2">Coordonnées personelles: </h2>
 
-                 
+        <div class="footer__container">
+            <div class="footer__container__subsection">
+                
+                <div class="footer__container__subsection__part">
+                 <h2> Email: khemakhememna@cedeg.be</h2>
+                </div>
+
+                <div class="footer__container__subsection__part">
+                 <h2> Adresse: chaussée de wavre 17, 5030 Gembloux</h2>
+                </div>
+
+                <div class="footer__container__subsection__part">
+                 <h2> Tel: +32 455 14 77 23</h2>
+                </div>
+                                 
             </div>
-            <div class="footer__container__subsection">Liens utiles</div>
+            <div class="footer__container__subsection">
+
+            <!-- <nav class="footer__container__subsectio__nav">
+            <ul class="footer__container__subsectio__nav__list">
+            <li class="footer__container__subsectio__nav__list__onelist">
+                 <NuxtLink class="footer__container__subsectio__nav__list__onelist__link" to="/"> Accueil</NuxtLink></li>
+            <li class="footer__container__subsectio__nav__list__onelist"> 
+                <NuxtLink class="footer__container__subsectio__nav__list__onelist__link" to="/entreprise"> Gourmet Flavors</NuxtLink></li>
+            <li class="footer__container__subsectio__nav__list__onelist">
+                <NuxtLink class="footer__container__subsectio__nav__list__onelist__link" to="/formation"> Formation</NuxtLink></li>
+            <li class="footer__container__subsectio__nav__list__onelist">
+                <NuxtLink class="footer__container__subsectio__nav__list__onelist__link" to="/stage"> Stage</NuxtLink></li>
+            <li class="footer__container__subsectio__nav__list__onelist">
+                <NuxtLink class="footer__container__subsectio__nav__list__onelist__link" to="/developpement"> Développement professionnel</NuxtLink></li>
+            </ul>
+            </nav> -->
+            </div>
         </div>
 
     </footer>
@@ -24,22 +48,30 @@
 .footer{
     /* background-color: rgb(230, 0, 126); */
     background-color:#4d4d4d;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Righteous', cursive;
 
 
+
+      &__title2
+      {
+        text-align: center;
+        padding-bottom: 10px;
+      }
 
         color:white;
         
         font-size: 15px;
         &__container{
-            display:flex;
-            justify-content: space-around;
-            &__img{
-                height:20%;
-                width:80px;
-            }
+            
+            
            &__subsection
            {
-            
+            display:flex;
+            justify-content: space-around;
            }
 
         }

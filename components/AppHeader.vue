@@ -1,7 +1,6 @@
 <template>
     <header class="header"> 
-        <Div class="header__wrapper wrapper">
-
+    <Div class="header__wrapper wrapper">
     <h2 class="header__title">Projet de fin de formation</h2>
     <!-- <form>
     <label for="site-search">Search the site:</label>
@@ -35,14 +34,9 @@
         background-color: rgb(230, 0, 126);;
         padding-top: 20px;
         padding-bottom: 10px;
-
-         color:white; 
-
-        /* font-family: 'Martian Mono', monospace;
-        font-family: 'Righteous', cursive; */
+        color:white; 
         font-family: 'Martian Mono', monospace;
         font-family: 'Righteous', cursive;
-
         font-size: 20px;
         &__title{
         text-align: center;
@@ -52,8 +46,6 @@
         }
         
         &__img{
-            /* background-image: url("public/Media/im8.jpg"); */
-            /* background-image: url('../public/Media/im8.jpg');*/
             background-size: cover; 
             width:100%;
             text-align: center;

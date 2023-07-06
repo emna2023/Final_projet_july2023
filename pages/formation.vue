@@ -29,7 +29,7 @@
             </div>
             
             <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/code1.avif"/>
+            <img class="main__container__img" alt="logo" src="public/Media/im9.jpg"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title">  Formations complémentaires 
             </h3>
@@ -44,25 +44,41 @@
              </Div>
             
            <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/im9.jpg"/>
+            <img class="main__container__img" alt="logo" src="public/Media/code4.avif"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Réalisations </h3>
             <p class="main__container__productcontainer__description">
-                Une série d'exercices sur HTML,CSS:<br>
-                TP 1: Rick & Morty<br>
-                TP 2: First shop: Adidas<br>
-                TP 3: Blog <br>
-                Une série d'exercices Javascript <br>
-                Projet sur Nuxt<br>
                 
+                
+                Une série d'exercices sur HTML et CSS:<br>
+                <NuxtLink to="https://github.com/cedeg-formation/HTMLCssLiveCodingGroup">
+                    TP 1: Rick & Morty  </NuxtLink> 
+                    <NuxtLink to="">
+                    /TP 2: First shop (Adidas)</NuxtLink>
+                    <NuxtLink to="https://github.com/cedeg-formation/HtmlCssTest-READY">
+                    /TP 3: Blog</NuxtLink> <br><br>
+                Une série d'exercices JavaScript:<br>
+               
+                <NuxtLink to="https://github.com/emna2023/https://github.com/cedeg-formation/JsTest01-PROMO-01">
+                    Série 1 Javascript</NuxtLink> 
+
+                <NuxtLink to="https://github.com/cedeg-formation/JsTest01-PROMO-02">
+                    /Série 2 Javascript</NuxtLink> <br><br>
+                Projets avec Nuxt:<br>
+
+                <NuxtLink to="https://github.com/cedeg-formation/Animal-Crossing-Api-Exo-01">AnimalCrossing</NuxtLink> 
+
+                <NuxtLink to="https://github.com/cedeg-formation/Fake-Store-Api">/FakestoreApi</NuxtLink> 
+
+                <NuxtLink to="https://github.com/emna2023/IntershipProject">/Projet PowerUp</NuxtLink> <br><br>
+                Base de données et SQL: <br>
+                <NuxtLink to="https://github.com/cedeg-formation/LearnSQLWithNaruto">  LearnSQLWithNaruto</NuxtLink> <br>
+
             </p>
             </Div>
              </Div>
-        
-        
-        
-        <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/code4.avif"/>
+            <div class="main__container">
+            <img class="main__container__img" alt="logo" src="public/Media/code1.avif"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Améliorations </h3>
             <p class="main__container__productcontainer__description">

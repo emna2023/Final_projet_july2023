@@ -1,19 +1,24 @@
 <template>
 
     <main class="main">
+        <img alt="maphoto" src="../public/Media/planaction2.webp" class="main__img"/>
+
         <div class="main__container">
-            <img alt="maphoto" src="../public/Media/im2.jpg" class="main__container__img"/>
+            <img alt="maphoto" src="../public/Media/planaction.jpg" class="main__container__img"/>
             <div class="main__container__filesparts">
                 <ul class="main__container__filesparts__list">
                     <li class="main__container__filesparts__list__element1">
-                        <NuxtLink class="main__container__filesparts__list__element1__link" to=""> 
-                            CV</NuxtLink></li>
+                        <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/CV.pdf"> 
+                            CV</a></li>
                             <li class="main__container__filesparts__list__element1">
-                        <NuxtLink class="main__container__filesparts__list__element1__link" to=""> 
-                            Lettre de motivation</NuxtLink></li>
+                        <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/equivalence.pdf"> 
+                            Equivalence du diplôme</a></li>
                             <li class="main__container__filesparts__list__element1">
-                        <NuxtLink class="main__container__filesparts__list__element1__link" to=""> 
-                            Plan d'action</NuxtLink></li>
+                        <a class="main__container__filesparts__list__element1__link" href=""> 
+                            Lettre de motivation</a></li>
+                            <li class="main__container__filesparts__list__element1">
+                        <a class="main__container__filesparts__list__element1__link" href=""> 
+                            Plan d'action</a></li>
                   
                 </ul>
                 
@@ -39,6 +44,12 @@
         font-family: 'Righteous', cursive;
         font-size: 25px;
         color: #666666;
+        &__img{
+               
+        width: 100%;
+        height: 12em;
+        }
+        
 
     &__container{
         margin:60px;

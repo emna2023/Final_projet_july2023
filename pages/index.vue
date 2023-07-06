@@ -2,21 +2,37 @@
 
     <main class="main">
         <img alt="image_banner" src="public/Media/im10.jpg"  class="main__img"/>
-        <h1 class="main__title">Stagiaire: Emna KHEMAKHEM</h1>
-        <h2 class="main__subtitle">
-            Formation : Développeur (euse) Web
-        </h2>
+        <h1 class="main__title">Emna KHEMAKHEM</h1>
+        
       
 
        
 
 <!--  -->
 <div class="main__container">
+            <img class="main__container__img" alt="logo" src="public/Media/emna1.jpg"/>
+            <Div class="main__container__secondcontainer">
+            <h3 class="main__container__secondcontainer__title"> Présentation </h3>
+            <p class="main__container__secondcontainer__description">
+             Diplômé d'un mastére en systèmes d'information et nouvelles technologies, j'ai commencé
+             ma carriére professionelle comme enseignante d'informatique dans les établissements
+            scolaires tunisiens. J'étais dynamique et innovatrice et
+            j'ai participé plusieurs projets nationales et européens.  <br>
+            <span> Mon expérience dans ce domaine était riche et diversifié
+            <a href="https://sway.office.com/f2JfIBZCkUaQ5zFd?ref=Link&loc=play"> (Cliquer ici pour voir mes activités pédagogiques)</a><br>
+        </span><br>
+        je change maintenant de carriére et je m'oriente vers le développement web et la formation professionelle
+
+        
+        </p>
+            </Div>
+        </div>
+            <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/cedeg.png"/>
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Formation </h3>
             <p class="main__container__secondcontainer__description">
-            Grâce à cette formation, j'ai appris  les compétences nécessaires pour concevoir et développer 
+            J'ai assister à une formation de développemnt web à la cedeg dans laquelle j'ai appris  les compétences nécessaires pour concevoir et développer 
             des sites web de qualité professionnelle en utilisant le langage de balisage HTML, les feuilles de styles CSS et le langage de programmation JavaScript.
             </p>
             </Div>
@@ -78,17 +94,12 @@
         text-align: center;
         font-size: 3em;
         color: rgb(230, 0, 126);
-
-    }
-    &__subtitle
-    {
-        text-align: center;
-        padding: 30px;
-        font-size: 3em;
-        color: #666666;
         padding-bottom: 50px;
+        padding-top:30px;
+
 
     }
+    
     
 
     
