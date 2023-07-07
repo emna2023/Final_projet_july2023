@@ -2,7 +2,7 @@
 
     <main class="main">
         <img alt="maphoto" src="../public/Media/planaction2.webp" class="main__img"/>
-
+        
         <div class="main__container">
             <img alt="maphoto" src="../public/Media/planaction.jpg" class="main__container__img"/>
             <div class="main__container__filesparts">
@@ -12,7 +12,7 @@
                             CV</a></li>
                             <li class="main__container__filesparts__list__element1">
                         <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/equivalence.pdf"> 
-                            Equivalence du diplôme</a></li>
+                            Equivalence des diplômes</a></li>
                             <li class="main__container__filesparts__list__element1">
                         <a class="main__container__filesparts__list__element1__link" href=""> 
                             Lettre de motivation</a></li>
@@ -26,13 +26,17 @@
             
         </div>
         <div class="main__container">
+           <h1>Mon CV</h1> 
+           <embed class="main__embed" src="../public/CV.pdf" height="800" width="800"> 
+        </div>
+        <!-- <div class="main__container">
            <h1>Ateliers</h1> 
            <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra nulla eu mollis dignissim. Morbi quis tempus est, nec malesuada elit. Sed dapibus sodales elit nec hendrerit. 
                 Vivamus vestibulum aliquam tortor eu vehicula. Cras finibus porta tellus, sit amet faucibus 
             
            </p>
-</div>
+</div> -->
     </main>
 
 </template>

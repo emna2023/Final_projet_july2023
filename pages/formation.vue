@@ -2,7 +2,7 @@
 
     
         <main class="main">
-         <img alt="image_banner" src="public/Media/cedeg2.jpg"  class="main__img"/> 
+         <img alt="image_banner" src="public/Media/cedeg1.jpg"  class="main__img"/> 
          <h1 class="main__title">Formation: Développeur(euse) web</h1>
          <h2 class="main__subtitle">
             Lieu: CEDEG (du 15 mars au 14 juillet)</h2>
@@ -71,7 +71,7 @@
                 <NuxtLink to="https://github.com/cedeg-formation/Fake-Store-Api">/FakestoreApi</NuxtLink> 
 
                 <NuxtLink to="https://github.com/emna2023/IntershipProject">/Projet PowerUp</NuxtLink> <br><br>
-                Base de données et SQL: <br>
+                Base de données SQL: <br>
                 <NuxtLink to="https://github.com/cedeg-formation/LearnSQLWithNaruto">  LearnSQLWithNaruto</NuxtLink> <br>
 
             </p>
@@ -82,11 +82,11 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Améliorations </h3>
             <p class="main__container__productcontainer__description">
-                Fond:<br>
+                De fond:<br>
                 Un planning clair <br>
                 Organisation pédagogique et répartition des savoirs<br>
                 Support de cours<br>
-                Forme:<br> 
+                De forme:<br> 
                 Petite salle mal aérée<br>
                 Les chaises sont inconfortable<br> 
                 Le vidéo projecteur est très proche de certains stagiaires (Lumière très forte) <br>

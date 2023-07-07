@@ -10,18 +10,18 @@
 
 <!--  -->
 <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/emna1.jpg"/>
+            <img class="main__container__img" alt="logo" src="public/Media/profil.jpg"/>
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Présentation </h3>
             <p class="main__container__secondcontainer__description">
-             Diplômé d'un mastére en systèmes d'information et nouvelles technologies, j'ai commencé
-             ma carriére professionelle comme enseignante d'informatique dans les établissements
-            scolaires tunisiens. J'étais dynamique et innovatrice et
-            j'ai participé plusieurs projets nationales et européens.  <br>
-            <span> Mon expérience dans ce domaine était riche et diversifié
-            <a href="https://sway.office.com/f2JfIBZCkUaQ5zFd?ref=Link&loc=play"> (Cliquer ici pour voir mes activités pédagogiques)</a><br>
-        </span><br>
-        je change maintenant de carriére et je m'oriente vers le développement web et la formation professionelle
+             Titulaire d'un master en systèmes d'information et nouvelles technologies et ayant une solide
+             expérience pédagogique dans le domaine de  l'enseignement secondaire consolidé par la participation
+             à plusieurs projets Erasmus+, je souhaite orienter ma carriére vers le développement web
+            <br>
+            
+            <a class="main__container__secondcontainer__description__link"
+            href="https://sway.office.com/f2JfIBZCkUaQ5zFd?ref=Link&loc=play"> (Cliquer ici pour voir mes activités pédagogiques)</a><br>
+        <br>
 
         
         </p>
@@ -32,7 +32,7 @@
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Formation </h3>
             <p class="main__container__secondcontainer__description">
-            J'ai assister à une formation de développemnt web à la cedeg dans laquelle j'ai appris  les compétences nécessaires pour concevoir et développer 
+            J'ai suivi un programme de formation de développemnt web à la CEDEG dans lequel j'ai acquis  les compétences nécessaires pour concevoir et développer 
             des sites web de qualité professionnelle en utilisant le langage de balisage HTML, les feuilles de styles CSS et le langage de programmation JavaScript.
             </p>
             </Div>
@@ -44,12 +44,12 @@
             <p class="main__container__secondcontainer__description">
                 J'ai réalisé un stage dans l'intercommunale Imio qui offre des produits et des services 
                 informatiques pour les pouvoirs locaux de la Wallonie.<br>
-                Pendant ce stage, j'ai découvert la réalité du monde professionelle
+                Pendant ce stage, j'ai découvert le monde de l'entreprise
                 ainsi que les différents métiers du domaine informatique.<br>
                 En travaillant à côté des experts du domaine, j'ai appris des nouvelles compétences techniques et 
                 des bonnes pratiques de travail.
-                J'ai appris aussi à utiliser le CMS Plone pour la création des sites web et surtout j'ai découvert
-                une nouvelle approche de travail à savoir l'industrialisation des sites web.
+                Ce stage m'a permis aussi d'utiliser le CMS Plone pour la création des sites web et de découvrir
+                un nouveau concept de travail à savoir l'industrialisation des sites web.
             </p>
             </Div>
         </div>
@@ -58,10 +58,10 @@
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Objectifs professionnels </h3>
             <p class="main__container__secondcontainer__description">
-            Mon objectif professionel est de travailler dans une entreprise dynamique et innovante ou je pourrais
+            Mon objectif professionel est de consolider cette expérience acquise en travaillant
+            dans une entreprise dynamique et innovante ou je pourrais
             mettre en pratique mes compétences techniques et mes connaissances en matières de développement web.<br>
-            Je vise aussi travailler en tant que formatrice dans le domaine de l'informatique étant donné que je maîtrise 
-            plusieurs languages de programmation.
+            Par la suite, Je viserai d'entamer une carriére en tant que formatrice dans le domaine informatique.
 
             </p>
             </Div>
@@ -133,6 +133,10 @@
             }
             &__description{
                 font-size: 20px;
+                &__link{
+                    font-size: 15px;
+                    color: #666666;
+                }
             }
         }
 

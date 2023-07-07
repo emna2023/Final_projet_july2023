@@ -4,7 +4,7 @@
          <img alt="image_banner" src="public/Media/imio1.jpg"  class="main__img"/> 
          <h1 class="main__title">Stage d'entreprise: Imio</h1>
          <h2 class="main__subtitle">Intercommunale de Mutualisation Informatique et Organisationnelle
-</h2>
+        </h2>
 <h2 class="main__subtitle">Du 01 juin au 30 juin 2023</h2>
 <!-- <embed class="main__embed" src="../public/" height="400" width="300"> -->
 
@@ -29,8 +29,7 @@
                 iMio offre pour les autorités locales un modèle de site web 
                 prêt à l’emploi afin de créer leurs sites web publique. <br> <br>
                 Technologie utilisé: CMS Plone (un système de gestion de contenu Web libre)<br>
-                IMIO a ajouté des personnalisations qui se produit essentiellement dans le système 
-                de sections <br> <br>
+                IMIO a personnalisé Plone en ajoutant un système de sections <br> <br>
                 
                 Elle a réalisé plus de 230 sites web avec Plone <br>
                 Des sites responsive et répondre au mieux aux attentes d'accessibilité.
@@ -61,8 +60,8 @@
             <h3 class="main__container__productcontainer__title"> J'ai appris </h3>
             <p class="main__container__productcontainer__description">
                 Création de la maquette avec Figma <br>
-                Intégration des sites avec Plone 6 en Maintenant une squelette HTML standard<br>
-                Les paramétres d'accessibilité <br>
+                Intégration des sites avec Plone 6 en maintenant une squelette HTML standard<br>
+                Paramétres d'accessibilité <br>
                 Vérification des contrastes de couleurs  <br>
                 Utilisation des images libres<br>
                 Programmation avec React et Python<br>
@@ -72,7 +71,7 @@
             </div>
 </div>
 <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/realisation.webp"/>
+            <img class="main__container__img" alt="logo" src="public/Media/emna1.jpg"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Réalisations </h3>
             <p class="main__container__productcontainer__description">
@@ -83,7 +82,6 @@
 </div>
 
 </div>
-<img alt="Myphoto" src="../public/Media/emna1.jpg"  class="main__myimg"/> 
 </main>
 
 </template>
