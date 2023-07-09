@@ -15,8 +15,17 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Plats préparés et surgelés de haute qualité </h3>
             <p class="main__container__productcontainer__description">
-                Nos plats préparés surgelés combleront toutes vos envie en matière d'alimentation variée. La qualité et le goût des produits surgelés ne sont en aucun cas inférieurs aux repas préparés frais. Tous nos plats préparés surgelés
-                sont préparés en un rien de temps au four, au micro-onde ou à la poêle et préservent toutes la saveur du poisson, de la viande, des légumes, des pâtes et du riz. 
+                Notre site est dédié aux amateurs de bonnes choses qui souhaitent profiter de repas préparés
+                 et surgelés de haute qualité.<br>
+                  Nous proposons une large sélection de plats préparés par des chefs 
+                 talentueux, utilisant des ingrédients frais et de qualité supérieure. Conçus pour répondre à tous
+                  les goûts et à toutes les envies, nos plats sont savoureux, sains et faciles à préparer, 
+                  pour vous faire gagner du temps tout en vous offrant une expérience culinaire inoubliable
+                   à chaque bouchée. Que vous recherchiez des plats végétariens, sans gluten ou riches en protéines,
+                    nous avons tout ce qu'il vous faut pour satisfaire votre appétit. Et avec une livraison rapide
+                     et fiable, vous pouvez profiter de nos délicieux plats à tout moment, où que vous soyez.
+                      Alors n'hésitez plus, commandez 
+                dès maintenant et découvrez la saveur et la qualité de nos plats préparés et surgelés haut de gamme ! 
             </p>
             </Div>
         </div>
@@ -26,8 +35,15 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Epices et condiments exotiques </h3>
             <p class="main__container__productcontainer__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra nulla eu mollis dignissim. Morbi quis tempus est, nec malesuada elit. Sed dapibus sodales elit nec hendrerit. 
-                Vivamus vestibulum aliquam tortor eu vehicula. Cras finibus porta tellus, sit amet faucibus 
+                Nous sommes fiers de vous proposer une large sélection d'arômes et de saveurs venus des quatre coins du monde.<br>
+                Nos produits sont soigneusement sélectionnés pour leur qualité et leur authenticité.
+                Nous travaillons en étroite collaboration avec des producteurs locaux pour vous offrir des épices et des condiments de la plus haute qualité.<br> 
+                Notre gamme comprend des épices traditionnelles telles que le curcuma, le cumin ou encore le paprika, 
+                mais également des mélanges d'épices originaux, issus de recettes traditionnelles. <br>
+                Les amateurs de saveurs exotiques trouveront sans aucun doute leur bonheur, 
+                avec nos épices et condiments venus d'Asie, d'Afrique, d'Amérique Latine et des Caraïbes.
+                 Nous nous efforçons de vous offrir un service de qualité, rapide et fiable.
+                  
             </p>
             </Div>
         </div>
@@ -41,14 +57,13 @@
 
 C’est avant tout sur le partage que le chef veut axer ces cours, c’est pourquoi lors des cours de cuisine vous aurez l’occasion de réaliser l’entièreté des recettes des cours, il n’est donc pas question
  de faire une recette sur les quatre, mais bien de voir la totalité du cours. <br>
- Les cours débutent à 19h, pour une durée moyenne de 3h30 à 4h.<br>
+ Les cours débutent à 19h, pour une durée moyenne de 4h.<br>
 
 Il faudra pour chaque cours vous munir d’un essuie, d’un tablier et de deux ou trois récipients pour repartir avec quelques délices chez vous.<br>
 
-Réservations des cours par mail à info@laurentmoutoy.com ou au 081 / 61.46.60 .<br>
+Réservations des cours par mail à GourmetFlavors@gmail.com 
 
-Seul le paiement de la totalité du cours de cuisine confirme votre inscription, celui-ci est à verser sur le compte BE15.0019.2535.6030.
-Les cours ne sont ni échangeables, ni remboursables, dans les sept jours précédents celui-ci, sauf décès et cas de force majeure.
+
             </p>
             </Div>
         </div>
@@ -62,17 +77,20 @@ Les cours ne sont ni échangeables, ni remboursables, dans les sept jours préc�
                 notre chef, vous accompagne et vous conseille pour définir le menu idéal en fonction de vos goûts et des préférences de vos convives.<br>
                 Notre équipe multiculturelle crée des menus et des plats adaptés à toutes occasions, mariages, fêtes d’anniversaire, babyshower, cocktails dinatoires, vernissages, ou pendaison de crémaillère.
 
-Du repas assis en passant par le walking dinner, nous proposons également une multitude d’échoppes qui fera voyager vos invités.
-Aromate a pour mission de vous faire vivre une véritable expérience gustative et conviviale.<br>
-Pour réserver un rendez-vous ou vous renseigner sur nos services, contactez-nous par email à l’adresse info@aromate.be
+               Du repas assis en passant par le walking dinner, nous proposons également une multitude d’échoppes qui fera voyager vos invités.
+               Aromate a pour mission de vous faire vivre une véritable expérience gustative et conviviale.<br>
+               Pour réserver un rendez-vous ou vous renseigner sur nos services, contactez-nous par email à l’adresse GourmetFlavors@gmail.com 
             </p>
             </Div>
         </div>
         <h2 class="main__subtitle">
             Newsletter
         </h2>
+
         <div class="main__container">
         <img class="main__container__img2" alt="logo" src="public/Media/logotraiteur.png"/>
+
+       
         <form class="main__container__form" action="">
         <label class="main__container__form__label"> Nom:</label>
         <input class="main__container__form__text" type="text" id="nom"> 
@@ -84,8 +102,7 @@ Pour réserver un rendez-vous ou vous renseigner sur nos services, contactez-nou
         <input class="main__container__form__text" type="text" id="Lieu">
         <label class="main__container__form__label"> Mail:</label>
         <input class="main__container__form__mail"  type="email" id="email" size="10" required> 
-        <input type="button" value="Submit">	
-
+        <input class="main__container__form__button" type="button" value="Submit">	
         </form>
     </div>
  
@@ -138,6 +155,7 @@ Pour réserver un rendez-vous ou vous renseigner sur nos services, contactez-nou
             padding-top: 10px;
             color: rgb(230, 0, 126);
             padding-bottom: 10px;
+            text-align: left;
 
 
             }
@@ -149,6 +167,37 @@ Pour réserver un rendez-vous ou vous renseigner sur nos services, contactez-nou
             padding:20px;
             display:flex;
             flex-direction: column;
+            width:600px;
+
+            &__label{
+                color: rgb(230, 0, 126);
+                font-size: 25px;
+
+
+            }
+            &__text{
+                border:solid;
+                border-color: rgb(230, 0, 126);
+
+                color: #666666;
+                width:300px;
+
+            }
+            &__mail{
+                border:solid;
+                border-color: rgb(230, 0, 126);
+                color: #666666;
+                width:300px;
+                margin-bottom: 30px;
+            }
+            &__button{
+              border:solid;
+              width:100px;
+              background-color: rgb(230, 0, 126);
+              font-size: 25px;
+              border-color: rgb(230, 0, 126);
+              color: white;
+              }
         }
     }
     

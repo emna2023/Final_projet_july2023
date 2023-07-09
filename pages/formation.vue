@@ -84,7 +84,7 @@
             <p class="main__container__productcontainer__description">
                 De fond:<br>
                 Un planning clair <br>
-                Organisation pédagogique et répartition des savoirs<br>
+                <!-- Organisation pédagogique et répartition des savoirs<br> -->
                 Support de cours<br>
                 De forme:<br> 
                 Petite salle mal aérée<br>

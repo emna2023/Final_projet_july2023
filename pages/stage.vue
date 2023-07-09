@@ -7,8 +7,6 @@
         </h2>
 <h2 class="main__subtitle">Du 01 juin au 30 juin 2023</h2>
 <!-- <embed class="main__embed" src="../public/" height="400" width="300"> -->
-
-
 <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/imioback2.jpg"/>
             <Div class="main__container__productcontainer">
@@ -33,12 +31,11 @@
                 
                 Elle a réalisé plus de 230 sites web avec Plone <br>
                 Des sites responsive et répondre au mieux aux attentes d'accessibilité.
-
-
              </p>
             </div>
-</div>
-<div class="main__container">
+            </div>
+
+            <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/imio6.png"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Processus de travail </h3>
@@ -71,7 +68,7 @@
             </div>
 </div>
 <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/emna1.jpg"/>
+            <img class="main__container__img" alt="logo" src="public/Media/emna3.png"/>
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Réalisations </h3>
             <p class="main__container__productcontainer__description">
