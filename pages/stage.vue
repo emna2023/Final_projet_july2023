@@ -88,7 +88,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 .main{
     background-image: url("../public/Media/Calque1.jpg");
-
+   
     &__title
     {
         font-family: 'Martian Mono', monospace;
@@ -103,7 +103,7 @@
     {
         text-align: center;
         padding: 20px;
-        font-size: 1.5em;
+        font-size: 2em;
         color: #666666;
     }
     &__container
@@ -130,7 +130,66 @@
     }
 }
 
-
+@media(max-width:900px)
+{
+    .main
+    {
+        &__img
+        {
+        height:15em;
+        }
+        &__title
+    {
+        
+        font-size: 2em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 1.5em;
+ 
+    }
+    &__container
+    {
+    &__productcontainer
+        {
+            font-size: 0.9em;
+    
+    }
+    
+    }
+}
+}
+@media(max-width:750px)
+{
+    .main
+    {
+        &__img
+        {
+        height:10em;
+        }
+        &__title
+    {
+        
+        font-size: 1.5em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 1em;
+ 
+    }
+    &__container
+    {
+    &__productcontainer
+        {
+            font-size: 0.7em;
+    
+    }
+    
+    }
+}
+}
 
 
 </style>

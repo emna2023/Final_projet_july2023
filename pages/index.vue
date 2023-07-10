@@ -10,7 +10,7 @@
 
 <!--  -->
 <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/profil.jpg"/>
+            <img class="main__container__img" alt="logo" src="public/Media/profil3.jpg"/>
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Présentation </h3>
             <p class="main__container__secondcontainer__description">
@@ -99,16 +99,11 @@
 
 
     }
-    
-    
-
-    
-    &__img{
+    &__img
+    {
         height:20em;
         width:100%;
     }
-
-
 
     &__container
     {
@@ -120,19 +115,20 @@
             border:solid;
             border-radius: 25% 10%;
             border-color: transparent;
+            width:auto;
             
         }
         &__secondcontainer
         {
+            font-size: 20px;
+
             &__title{
             color:  #666666;
             text-align: left;
-            font-size: 20px;
             padding-bottom: 20px;
 
             }
             &__description{
-                font-size: 20px;
                 &__link{
                     font-size: 15px;
                     color: #666666;
@@ -140,21 +136,52 @@
             }
         }
 
-
-
-    //     &__container{
-    //     display:flex;
-    //     &__sectionLeft{
-    //         width:20%;
-    //     }
-    //     &__sectionRight{
-    //         width:60%
-    //     }
-    //     &__section3{
-    //         width:20%
-    //     }
-
-    // }
 }
+}
+
+@media(max-width:900px)
+{
+    .main
+    {
+        &__img
+    {
+        height:15em;
+    }
+        &__title
+    {
+        
+        font-size: 2em;
+        
+    }
+    &__container
+    {
+       &__secondcontainer
+        {
+            font-size: 15px;
+        }
+      }
+    }
+}
+@media(max-width:750px)
+{
+    .main
+    {
+        &__img
+        {
+        height:10em;
+        }
+        &__title
+        {
+        font-size: 1.5em;
+        }
+        &__container
+         {
+          &__secondcontainer
+          {
+            font-size: 12px;
+          }
+          }
+    }
+    
 }
 </style>

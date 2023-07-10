@@ -37,11 +37,10 @@
         color:white; 
         font-family: 'Martian Mono', monospace;
         font-family: 'Righteous', cursive;
-        font-size: 20px;
         &__title{
         text-align: center;
         padding:10px;
-        font-size: 1.5em;
+        font-size: 2em;
         
         }
         
@@ -76,5 +75,43 @@
             }
         }
     }
+   
+    @media(max-width:750px)
+{
+    .header
+    {
+        &__title{
+        
+        font-size: 1.2em;
+        
+        }
+        &__nav
+        {
+            &__list
+            {
+                display:block;
+                font-size: 15px;
+            }
+        }
+}
+}
+@media(max-width:900px)
+{
+    .header
+    {
+        &__title{
+        
+        font-size: 1.2em;
+        
+        }
+        &__nav
+        {
+            &__list
+            {
+                font-size: 13px;
+            }
+        }
+}
+}
     </style> 
     

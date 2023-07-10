@@ -2,34 +2,41 @@
 
     <main class="main">
         <img alt="maphoto" src="../public/Media/planaction2.webp" class="main__img"/>
-        <div class="main__firstcontainer">
-           <h1> CV</h1> 
-           <embed class="main__container__embed" src="../public/CV.pdf" height="1200" width="1100"> 
-        </div>
+        
         
         <div class="main__container">
             <img alt="maphoto" src="../public/Media/planaction.jpg" class="main__container__img"/>
             <div class="main__container__filesparts">
                 <ul class="main__container__filesparts__list">
                     <li class="main__container__filesparts__list__element1">
-                        <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/CV.pdf"> 
-                            CV</a></li>
-                            <li class="main__container__filesparts__list__element1">
-                        <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/equivalence.pdf"> 
-                            Equivalence des diplômes</a></li>
-                            <li class="main__container__filesparts__list__element1">
+                    <a class="main__container__filesparts__list__element1__link" href="../public/plan.pdf"> 
+                            Plan d'action</a>
+                    </li>
+                        <li class="main__container__filesparts__list__element1">
                         <a class="main__container__filesparts__list__element1__link" href=""> 
-                            Lettre de motivation</a></li>
+                            Lettre de motivation</a>
+                        </li>
+                        <li class="main__container__filesparts__list__element1">
+                        <a class="main__container__filesparts__list__element1__link" href="../public/Pdf/equivalence.pdf"> 
+                            Equivalence des diplômes</a>
+                        </li>
+                        
+                            <li><a class="main__container__filesparts__list__element1__link" href="../public/plan.pdf"> 
+                            Lettre de recommandation</a></li>
                             <li class="main__container__filesparts__list__element1">
-                        <a class="main__container__filesparts__list__element1__link" href="../public/plan.pdf"> 
-                            Plan d'action</a></li>
+                        <a class="main__container__filesparts__list__element1__link" href="../public/lettrederecommandation.pdf"> 
+                            CV</a></li>
                   
                 </ul>
                 
             </div>
             
         </div>
-       
+        <h1 class="main__subtitle"> Curriculum Vitae</h1> 
+
+        <div class="main__firstcontainer">
+           <embed class="main__container__embed" height="1200px" width="1100px" src="../public/CV.pdf" > 
+        </div>
         
     </main>
 
@@ -48,15 +55,22 @@
         height: 12em;
         }
         &__firstcontainer{
-        margin:60px;
-        padding: 40px;
+        /* margin:60px; */
+        padding: 40px; 
         border:solid;
         border-color: rgb(230, 0, 126);
         border-radius: 20px;
-        text-align: center;
+        position:relative;
+        overflow: hidden;
         &__embed
         {
-            padding-left: 500px;
+            position: absolute;
+            width:100%;
+            height:100%;
+
+            /* padding-left: 500px; */
+            
+        }
         }
 
         }
@@ -79,6 +93,40 @@
         }
 
     }
+
+@media(max-width:900px)
+{
+    .main
+    {
+        font-size:20px;
+        &__img{
+               
+               height: 10em;
+               }
+        
+    
+        &__firstcontainer
+        {
+        
+        &__embed
+        {
+            height:200px;
+            width:200px;
+        }
+        }
+}
+}
+@media(max-width:750px)
+{
+    .main
+    {
+        &__img{
+               
+               height: 8em;
+               }
+    font-size: 10px;
+   
+}
 }
 
 </style>

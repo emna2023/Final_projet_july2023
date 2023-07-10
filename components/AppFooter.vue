@@ -51,10 +51,10 @@
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 5px;
     font-family: 'Martian Mono', monospace;
     font-family: 'Righteous', cursive;
-
-
+    width:100%;
 
       &__title2
       {
@@ -76,4 +76,30 @@
 
         }
 }
+
+@media(max-width:900px)
+{
+    .footer{
+    font-size: 10px;
+    }}
+@media(max-width:500px)
+{
+    .footer{
+    font-size: 10px;
+    &__title2
+      {
+        text-align: left;
+        
+      }
+
+    &__container{
+            
+        &__subsection
+           {
+            display:block;
+           }
+
+        }
+    
+}}
 </style>

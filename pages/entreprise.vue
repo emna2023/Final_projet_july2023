@@ -114,6 +114,7 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
   @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 
 .main{
+    
     &__title
     {
         font-family: 'Martian Mono', monospace;
@@ -144,6 +145,7 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         grid-template-columns: 30% 70%;
         gap:10px;
         padding: 20px;
+        font-size: 1em;
         &__img{
             border:solid;
             border-radius: 25% 10%;
@@ -201,5 +203,119 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         }
     }
     
+}
+
+@media(max-width:900px)
+{
+    .main
+    {
+        &__bannercontainer
+        {
+            &__img{
+            height:15em;
+            }
+        }
+        &__title
+    {
+        
+        font-size: 2em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 2em;
+ 
+    }
+    
+    &__container
+    {
+        &__productcontainer
+        {
+            font-size: 0.8em;
+            
+        }
+        &__form
+        {
+            
+            width:400px;
+
+            &__label{
+                font-size: 20px;
+
+
+            }
+            &__text{
+                width:300px;
+
+            }
+            &__mail{
+                width:300px;
+            }
+            &__button{
+              width:100px;
+              font-size: 20px;
+              }
+        }
+    }
+
+}
+}
+@media(max-width:750px)
+{
+    .main
+    {
+    &__bannercontainer
+    {
+            &__img
+            {
+            height:10em;
+            }
+    }
+    &__title
+    {
+        
+        font-size: 1.5em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 1em;
+ 
+    }
+    &__container
+    {
+    &__productcontainer
+        {
+            font-size: 0.7em;
+    
+    }
+    &__form
+        {
+            
+            width:250px;
+
+            &__label{
+                font-size: 15px;
+
+
+            }
+            &__text{
+                width:200px;
+
+            }
+            &__mail{
+                width:200px;
+            }
+            &__button{
+              width:80px;
+              font-size: 15px;
+              }
+        }
+
+   
+
+    }
+
+}
 }
 </style>

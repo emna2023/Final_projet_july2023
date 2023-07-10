@@ -59,7 +59,7 @@
                     /TP 3: Blog</NuxtLink> <br><br>
                 Une série d'exercices JavaScript:<br>
                
-                <NuxtLink to="https://github.com/emna2023/https://github.com/cedeg-formation/JsTest01-PROMO-01">
+                <NuxtLink to="https://github.com/cedeg-formation/JsTest01-PROMO-01">
                     Série 1 Javascript</NuxtLink> 
 
                 <NuxtLink to="https://github.com/cedeg-formation/JsTest01-PROMO-02">
@@ -113,7 +113,7 @@
     &__subtitle
     {
         text-align: center;
-        padding: 30px;
+        padding: 20px;
         font-size: 3em;
         color: #666666;
         padding-bottom: 50px;
@@ -130,6 +130,8 @@
         display:grid;
         grid-template-columns: 30% 70%;
         gap:10px;
+        font-size: 1em;
+
         padding: 20px;
         &__img{
             border:solid;
@@ -146,4 +148,65 @@
         }
     }
     }
+    @media(max-width:900px)
+{
+    .main
+    {
+        &__img
+        {
+        height:10em;
+        }
+        &__title
+    {
+        
+        font-size: 2em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 2em;
+ 
+    }
+    &__container
+    {
+    &__productcontainer
+        {
+            font-size: 0.9em;
+    
+    }
+    
+    }
+}
+}
+@media(max-width:750px)
+{
+    .main
+    {
+        &__img
+        {
+        height:10em;
+        }
+    &__title
+    {
+        
+        font-size: 1.5em;
+        
+    }
+    &__subtitle
+    {
+        font-size: 1em;
+ 
+    }
+    &__container
+    {
+    &__productcontainer
+        {
+            font-size: 0.7em;
+    
+    }
+    
+    }
+    
+    }
+}
 </style>
