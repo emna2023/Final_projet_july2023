@@ -23,7 +23,6 @@ Retour à la page d'accueil</NuxtLink>
 
 
 
-
     <!-- <style lang="scss">
     img{
         width:100%;
@@ -106,7 +105,7 @@ Retour à la page d'accueil</NuxtLink>
         text-decoration: none;
         text-align: center;
         font-weight: 600;
-        background-color: #DE047B;
+        background-color:#4A4AF2;
         font-size: 18px;
         border-radius: 10px;
         color: white;
@@ -126,7 +125,7 @@ Retour à la page d'accueil</NuxtLink>
         {
     
          font-weight: bold;
-         color: #DE047B;
+         color:#4A4AF2;
          background-color: white;
         }
     
@@ -161,3 +160,4 @@ Retour à la page d'accueil</NuxtLink>
     
     
         
+

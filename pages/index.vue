@@ -59,7 +59,7 @@
             <h3 class="main__container__secondcontainer__title"> Objectifs professionnels </h3>
             <p class="main__container__secondcontainer__description">
             Mon objectif professionel est de consolider cette expérience acquise en travaillant
-            dans une entreprise dynamique et innovante ou je pourrais
+            dans une entreprise dynamique et innovante où je pourrais
             mettre en pratique mes compétences techniques et mes connaissances en matières de développement web.<br>
             Par la suite, Je viserai d'entamer une carriére en tant que formatrice dans le domaine informatique.
 

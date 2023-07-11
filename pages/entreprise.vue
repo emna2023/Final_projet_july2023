@@ -91,7 +91,7 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         <img class="main__container__img2" alt="logo" src="public/Media/logotraiteur.png"/>
 
        
-        <form class="main__container__form" action="">
+        <!-- <form class="main__container__form" action="">
         <label class="main__container__form__label"> Nom:</label>
         <input class="main__container__form__text" type="text" id="nom"> 
         <label class="main__container__form__label"> Prénom:</label>
@@ -103,7 +103,21 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         <label class="main__container__form__label"> Mail:</label>
         <input class="main__container__form__mail"  type="email" id="email" size="10" required> 
         <input class="main__container__form__button" type="button" value="Submit">	
+        </form> -->
+        <form class="main__container__form" action="submit" @submit.prevent="">
+        <label class="main__container__form__label" > Nom:</label>
+        <input class="main__container__form__text" name="name" type="text" id="name"  required> 
+        <label class="main__container__form__label"> Prénom:</label>
+        <input class="main__container__form__text" type="text" id="firstname" required > 
+        <label class="main__container__form__label"> Age:</label>
+        <input class="main__container__form__text" type="text" id="age" > 
+        <label class="main__container__form__label"> Lieu:</label>
+        <input class="main__container__form__text" type="text" id="place" >
+        <label class="main__container__form__label"> Mail:</label>
+        <input class="main__container__form__mail"  type="email" id="email" size="10"  required> 
+        <button class="main__container__form__button" type="submit" >Envoyer</button>   
         </form>
+
     </div>
  
     </main>

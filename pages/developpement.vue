@@ -21,10 +21,10 @@
                             Equivalence des diplômes</a>
                         </li>
                         
-                            <li><a class="main__container__filesparts__list__element1__link" href="../public/plan.pdf"> 
+                            <li><a class="main__container__filesparts__list__element1__link" href="../public/lettrederecommandation.pdf"> 
                             Lettre de recommandation</a></li>
                             <li class="main__container__filesparts__list__element1">
-                        <a class="main__container__filesparts__list__element1__link" href="../public/lettrederecommandation.pdf"> 
+                        <a class="main__container__filesparts__list__element1__link" href="../public/CV.pdf"> 
                             CV</a></li>
                   
                 </ul>
@@ -32,7 +32,6 @@
             </div>
             
         </div>
-        <h1 class="main__subtitle"> Curriculum Vitae</h1> 
 
         <div class="main__firstcontainer">
            <embed class="main__container__embed" height="1200px" width="1100px" src="../public/CV.pdf" > 
@@ -49,17 +48,21 @@
         font-family: 'Righteous', cursive;
         font-size: 25px;
         color: #666666;
-        &__img{
+         &__img{
                
         width: 100%;
         height: 12em;
         }
         &__firstcontainer{
         /* margin:60px; */
-        padding: 40px; 
+        padding-left: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
         border:solid;
         border-color: rgb(230, 0, 126);
         border-radius: 20px;
+        margin:60px;
         position:relative;
         overflow: hidden;
         &__embed
@@ -73,7 +76,7 @@
         }
         }
 
-        }
+        
         
 
     &__container{
@@ -84,7 +87,6 @@
         
         display: grid;
         grid-template-columns: 40% 40%;
-        margin-bottom: 20px;
         &__filesparts{
             &__list{
                 padding-top: 50px;
@@ -93,6 +95,7 @@
         }
 
     }
+}
 
 @media(max-width:900px)
 {
@@ -130,3 +133,4 @@
 }
 
 </style>
+
