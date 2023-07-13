@@ -27,10 +27,10 @@
                 iMio offre pour les autorités locales un modèle de site web 
                 prêt à l’emploi afin de créer leurs sites web publique. <br> <br>
                 Technologie utilisé: CMS Plone (un système de gestion de contenu Web libre)<br>
-                IMIO a personnalisé Plone en ajoutant un système de sections <br> <br>
+                IMIO a personnalisé Plone en ajoutant un système de sections. <br> <br>
                 
-                Elle a réalisé plus de 230 sites web avec Plone <br>
-                Des sites responsive et répondre au mieux aux attentes d'accessibilité.
+                Elle a réalisé plus de 230 sites web avec Plone. <br>
+                Les sites réalisés sont responsive et répondent mieux aux critères d'accessibilité.
              </p>
             </div>
             </div>
@@ -38,15 +38,15 @@
             <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/imio6.png"/>
             <Div class="main__container__productcontainer">
-            <h3 class="main__container__productcontainer__title"> Processus de travail </h3>
+            <h3 class="main__container__productcontainer__title"> Processus de travail : </h3>
             <p class="main__container__productcontainer__description">
-                Création et configuration de l'instance<br>
-                Formations pour les agents <br>
-                Création de contenus par les agents<br>
-                Création de la maquette <br>
-                Validation de la maquette <br>
-                Intégartion du site <br>
-                Mise en ligne
+                Création et configuration de l'instance,<br>
+                Formations pour les agents, <br>
+                Création de contenus par les agents,<br>
+                Création de la maquette, <br>
+                Validation de la maquette, <br>
+                Intégartion du site, <br>
+                Mise en ligne.
                  
              </p>
             </div>
@@ -54,15 +54,15 @@
 <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/appris2.webp"/>
             <Div class="main__container__productcontainer">
-            <h3 class="main__container__productcontainer__title"> J'ai appris </h3>
+            <h3 class="main__container__productcontainer__title"> J'ai appris : </h3>
             <p class="main__container__productcontainer__description">
-                Création de la maquette avec Figma <br>
-                Intégration des sites avec Plone 6 en maintenant une squelette HTML standard<br>
-                Paramétres d'accessibilité <br>
-                Vérification des contrastes de couleurs  <br>
-                Utilisation des images libres<br>
-                Programmation avec React et Python<br>
-                Des bonnes pratiques professionnelles pour le nommage des variables et les fonctions<br>
+                Création de la maquette avec Figma,<br>
+                Intégration des sites avec Plone 6 en maintenant une squelette HTML standard,<br>
+                Paramétres d'accessibilité, <br>
+                Vérification des contrastes de couleurs,  <br>
+                Utilisation des images libres,<br>
+                Programmation avec React et Python,<br>
+                Des bonnes pratiques professionnelles pour le nommage des variables et les fonctions.<br>
                  
              </p>
             </div>
@@ -70,11 +70,11 @@
 <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/emna3.png"/>
             <Div class="main__container__productcontainer">
-            <h3 class="main__container__productcontainer__title"> Réalisations </h3>
+            <h3 class="main__container__productcontainer__title"> Réalisations :</h3>
             <p class="main__container__productcontainer__description">
-                Intégration des sections dans des sites<br>
-                Réalisation des pages d'erreurs Imio<br>
-                Inspection des sites et proposition des améliorations<br>
+                Intégration des sections dans des sites,<br>
+                Réalisation des pages d'erreurs Imio,<br>
+                Inspection des sites et proposition des améliorations.<br>
              </p>
 </div>
 

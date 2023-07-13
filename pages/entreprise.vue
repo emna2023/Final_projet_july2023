@@ -109,7 +109,7 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         <input class="main__container__form__text" name="name" type="text" id="name"  required> 
         <label class="main__container__form__label"> Prénom:</label>
         <input class="main__container__form__text" type="text" id="firstname" required > 
-        <label class="main__container__form__label"> Age:</label>
+        <label class="main__container__form__label"> Âge:</label>
         <input class="main__container__form__text" type="text" id="age" > 
         <label class="main__container__form__label"> Lieu:</label>
         <input class="main__container__form__text" type="text" id="place" >
@@ -123,6 +123,11 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
     </main>
 
 </template>
+<script>
+
+// verification des champss
+</script>
+
 <style scoped>
 
   @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');

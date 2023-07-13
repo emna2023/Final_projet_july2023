@@ -1,7 +1,7 @@
 <template>
     <header class="header"> 
     <Div class="header__wrapper wrapper">
-    <h2 class="header__title">Projet de fin de formation</h2>
+    <h2 class="header__title">Travail de Fin de Formation</h2>
     <!-- <form>
     <label for="site-search">Search the site:</label>
      <input type="search" id="site-search" name="q">

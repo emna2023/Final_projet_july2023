@@ -10,13 +10,14 @@
 
 <!--  -->
 <div class="main__container">
-            <img class="main__container__img" alt="logo" src="public/Media/profil3.jpg"/>
+            <img class="main__container__img" alt="logo" src="public/Media/profil4.jpg"/>
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Présentation </h3>
             <p class="main__container__secondcontainer__description">
-             Titulaire d'un master en systèmes d'information et nouvelles technologies et ayant une solide
+             Titulaire d'un master en systèmes d'information et nouvelles technologies, je souhaite orienter ma carriére vers le développement web.
+             <br>J'ai également une solide
              expérience pédagogique dans le domaine de  l'enseignement secondaire consolidé par la participation
-             à plusieurs projets Erasmus+, je souhaite orienter ma carriére vers le développement web
+             à plusieurs projets Erasmus+.
             <br>
             
             <a class="main__container__secondcontainer__description__link"
@@ -32,7 +33,8 @@
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Formation </h3>
             <p class="main__container__secondcontainer__description">
-            J'ai suivi un programme de formation de développemnt web à la CEDEG dans lequel j'ai acquis  les compétences nécessaires pour concevoir et développer 
+            J'ai suivi un programme de formation de développement web à la CEDEG. <br>Ce cursus m'a permis d'acquérir
+            les compétences nécessaires pour concevoir et développer 
             des sites web de qualité professionnelle en utilisant le langage de balisage HTML, les feuilles de styles CSS et le langage de programmation JavaScript.
             </p>
             </Div>
@@ -46,10 +48,10 @@
                 informatiques pour les pouvoirs locaux de la Wallonie.<br>
                 Pendant ce stage, j'ai découvert le monde de l'entreprise
                 ainsi que les différents métiers du domaine informatique.<br>
-                En travaillant à côté des experts du domaine, j'ai appris des nouvelles compétences techniques et 
-                des bonnes pratiques de travail.
+                En travaillant aux côtés d'experts dans ce domaine, j'ai appris de nouvelles compétences
+                 techniques et de bonnes pratiques de travail.
                 Ce stage m'a permis aussi d'utiliser le CMS Plone pour la création des sites web et de découvrir
-                un nouveau concept de travail à savoir l'industrialisation des sites web.
+                un nouveau concept de travail, l'industrialisation des sites web.
             </p>
             </Div>
         </div>
@@ -61,7 +63,7 @@
             Mon objectif professionel est de consolider cette expérience acquise en travaillant
             dans une entreprise dynamique et innovante où je pourrais
             mettre en pratique mes compétences techniques et mes connaissances en matières de développement web.<br>
-            Par la suite, Je viserai d'entamer une carriére en tant que formatrice dans le domaine informatique.
+            Par la suite, Je viserai une carriére en tant que formatrice dans le domaine informatique.
 
             </p>
             </Div>

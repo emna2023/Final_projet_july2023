@@ -13,7 +13,7 @@
                             Plan d'action</a>
                     </li>
                         <li class="main__container__filesparts__list__element1">
-                        <a class="main__container__filesparts__list__element1__link" href=""> 
+                        <a class="main__container__filesparts__list__element1__link" href="../public/lettredemotivation.pdf"> 
                             Lettre de motivation</a>
                         </li>
                         <li class="main__container__filesparts__list__element1">

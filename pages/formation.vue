@@ -52,25 +52,25 @@
                 
                 Une série d'exercices sur HTML et CSS:<br>
                 <NuxtLink to="https://github.com/cedeg-formation/HTMLCssLiveCodingGroup">
-                    TP 1: Rick & Morty  </NuxtLink> 
+                    TP 1 : Rick & Morty  </NuxtLink> 
                     <NuxtLink to="">
-                    /TP 2: First shop (Adidas)</NuxtLink>
+                    / TP 2 : First shop (Adidas)</NuxtLink>
                     <NuxtLink to="https://github.com/cedeg-formation/HtmlCssTest-READY">
-                    /TP 3: Blog</NuxtLink> <br><br>
+                    / TP 3 : Blog</NuxtLink> <br><br>
                 Une série d'exercices JavaScript:<br>
                
                 <NuxtLink to="https://github.com/cedeg-formation/JsTest01-PROMO-01">
                     Série 1 Javascript</NuxtLink> 
 
                 <NuxtLink to="https://github.com/cedeg-formation/JsTest01-PROMO-02">
-                    /Série 2 Javascript</NuxtLink> <br><br>
+                    / Série 2 Javascript</NuxtLink> <br><br>
                 Projets avec Nuxt:<br>
 
                 <NuxtLink to="https://github.com/cedeg-formation/Animal-Crossing-Api-Exo-01">AnimalCrossing</NuxtLink> 
 
-                <NuxtLink to="https://github.com/cedeg-formation/Fake-Store-Api">/FakestoreApi</NuxtLink> 
+                <NuxtLink to="https://github.com/cedeg-formation/Fake-Store-Api">/ FakestoreApi</NuxtLink> 
 
-                <NuxtLink to="https://github.com/emna2023/IntershipProject">/Projet PowerUp</NuxtLink> <br><br>
+                <NuxtLink to="https://github.com/emna2023/IntershipProject">/ Projet PowerUp</NuxtLink> <br><br>
                 Base de données SQL: <br>
                 <NuxtLink to="https://github.com/cedeg-formation/LearnSQLWithNaruto">  LearnSQLWithNaruto</NuxtLink> <br>
 
@@ -82,14 +82,15 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Améliorations </h3>
             <p class="main__container__productcontainer__description">
-                De fond:<br>
+               <h4 class="main__container__productcontainer__description__subtitle">De fond:</h4> 
                 Un planning clair <br>
                 <!-- Organisation pédagogique et répartition des savoirs<br> -->
                 Support de cours<br>
-                De forme:<br> 
+                <h4 class="main__container__productcontainer__description__subtitle">De forme:</h4> 
                 Petite salle mal aérée<br>
-                Les chaises sont inconfortable<br> 
+                Les chaises sont inconfortables<br> 
                 Le vidéo projecteur est très proche de certains stagiaires (Lumière très forte) <br>
+                Les écrans des laptops sont fort petits
             </p>
             </Div>
             </div>
@@ -142,8 +143,14 @@
         {
             &__title{
             color: rgb(230, 0, 126);
+            
 
 
+            }
+            &__description{
+                &__subtitle
+                {
+                    color: #666666;                }
             }
         }
     }
