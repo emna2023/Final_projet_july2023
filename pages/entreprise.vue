@@ -105,15 +105,15 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         <input class="main__container__form__button" type="button" value="Submit">	
         </form> -->
         <form class="main__container__form"  @submit.prevent="envoyer" >
-        <label class="main__container__form__label" > Nom:</label>
+        <label class="main__container__form__label" > Nom :</label>
         <input class="main__container__form__text" name="name" type="text" id="name"  required> 
-        <label class="main__container__form__label"> Prénom:</label>
+        <label class="main__container__form__label"> Prénom :</label>
         <input class="main__container__form__text" type="text" id="firstname" required > 
-        <label class="main__container__form__label"> Âge:</label>
+        <label class="main__container__form__label"> Âge :</label>
         <input class="main__container__form__text" type="text" id="age" > 
-        <label class="main__container__form__label"> Lieu:</label>
-        <input class="main__container__form__text" type="text" id="place" >
-        <label class="main__container__form__label"> Mail:</label>
+        <label class="main__container__form__label"> Addresse :</label>
+        <input class="main__container__form__text" type="text" id="place" required>
+        <label class="main__container__form__label"> Mail :</label>
         <input class="main__container__form__mail"  type="email" id="email" size="10"  required> 
         <button class="main__container__form__button" type="submit" >Envoyer</button>   
         </form>
@@ -130,7 +130,7 @@ var name=document.getElementById("name").value;
 var age=document.getElementById("age").value;
 if(isNaN(age) == true)
 {
-	window.alert(age+' n\'est pas un nombre');
+	window.alert('Attention : L âge doit être sous forme numérique');
 }
 else
 {

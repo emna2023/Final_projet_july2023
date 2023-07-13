@@ -12,9 +12,10 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Missions et services </h3>
             <p class="main__container__productcontainer__description">
-                L'intercommunale a pour but de promouvoir et coordonner la mutualisation 
-                de solutions organisationnelles, <br>de produits et services informatiques pour
-                 les pouvoirs locaux de la Wallonie.
+               Imio fournit des produits et des services informatiques pour
+                les pouvoirs locaux de la Wallonie.<br>
+                Cette intercommunale a pour but de promouvoir et coordonner la mutualisation 
+                de solutions.
              </p>
             </div>
 </div>
@@ -24,8 +25,8 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> iA.SmartWeb </h3>
             <p class="main__container__productcontainer__description">
-                iMio offre pour les autorités locales un modèle de site web 
-                prêt à l’emploi afin de créer leurs sites web publique. <br> <br>
+                iMio offre un modèle de site web 
+                prêt à l’emploi pour créer les sites web publique. <br> <br>
                 Technologie utilisé: CMS Plone (un système de gestion de contenu Web libre)<br>
                 IMIO a personnalisé Plone en ajoutant un système de sections. <br> <br>
                 

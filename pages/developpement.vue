@@ -110,7 +110,7 @@
     
         &__firstcontainer
         {
-        
+        border-color: transparent;
         &__embed
         {
             height:200px;
@@ -128,8 +128,13 @@
                height: 8em;
                }
     font-size: 10px;
+
+    &__firstcontainer
+        {
+        border-color: transparent;
+        }
    
-}
+     }
 }
 
 </style>
