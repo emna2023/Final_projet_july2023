@@ -104,7 +104,7 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
         <input class="main__container__form__mail"  type="email" id="email" size="10" required> 
         <input class="main__container__form__button" type="button" value="Submit">	
         </form> -->
-        <form class="main__container__form" action="submit" @submit.prevent="">
+        <form class="main__container__form"  @submit.prevent="envoyer" >
         <label class="main__container__form__label" > Nom:</label>
         <input class="main__container__form__text" name="name" type="text" id="name"  required> 
         <label class="main__container__form__label"> Prénom:</label>
@@ -123,8 +123,21 @@ Réservations des cours par mail à GourmetFlavors@gmail.com
     </main>
 
 </template>
-<script>
+<script lang="ts" setup>
+function envoyer()
+{
+var name=document.getElementById("name").value;
+var age=document.getElementById("age").value;
+if(isNaN(age) == true)
+{
+	window.alert(age+' n\'est pas un nombre');
+}
+else
+{
+    window.alert("Le remplissage du formulaire est validé");
 
+}
+}
 // verification des champss
 </script>
 
