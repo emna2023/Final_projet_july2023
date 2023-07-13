@@ -2,6 +2,8 @@
 
     <main class="main">
         <img alt="maphoto" src="../public/Media/planaction2.webp" class="main__img"/>
+        <h1 class="main__title">Développement professionnel </h1>
+
         
         
         <div class="main__container">
@@ -48,6 +50,18 @@
         font-family: 'Righteous', cursive;
         font-size: 25px;
         color: #666666;
+        &__title
+    {
+        font-family: 'Martian Mono', monospace;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        font-size: 2em;
+        color: rgb(230, 0, 126);
+        padding-bottom: 15px;
+        padding-top:30px;
+
+
+    }
          &__img{
                
         width: 100%;
