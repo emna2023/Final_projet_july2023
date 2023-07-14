@@ -1,10 +1,8 @@
 <template>
-
 <main class="main">
-         <img alt="image_banner" src="public/Media/imio1.jpg"  class="main__img"/> 
-         <h1 class="main__title">Stage d'entreprise: Imio</h1>
-         <h2 class="main__subtitle">Intercommunale de Mutualisation Informatique et Organisationnelle
-        </h2>
+<img alt="image_banner" src="public/Media/imio1.jpg"  class="main__img"/> 
+<h1 class="main__title">Stage d'entreprise: Imio</h1>
+<h2 class="main__subtitle">Intercommunale de Mutualisation Informatique et Organisationnelle  </h2>
 <h2 class="main__subtitle">Du 01 juin au 30 juin 2023</h2>
 <!-- <embed class="main__embed" src="../public/" height="400" width="300"> -->
 <div class="main__container">
@@ -12,11 +10,11 @@
             <Div class="main__container__productcontainer">
             <h3 class="main__container__productcontainer__title"> Missions et services </h3>
             <p class="main__container__productcontainer__description">
-               Imio fournit des produits et des services informatiques pour
-                les pouvoirs locaux de la Wallonie.<br>
-                Cette intercommunale a pour but de promouvoir et coordonner la mutualisation 
-                de solutions.
-             </p>
+            Imio fournit des produits et des services informatiques pour
+            les pouvoirs locaux de la Wallonie.<br>
+            Cette intercommunale a pour but de promouvoir et coordonner la mutualisation 
+            de solutions.
+            </p>
             </div>
 </div>
 
@@ -32,7 +30,7 @@
                 
                 Elle a réalisé plus de 230 sites web avec Plone. <br>
                 Les sites réalisés sont responsive et répondent mieux aux critères d'accessibilité.
-             </p>
+        </p>
             </div>
             </div>
 
@@ -48,8 +46,8 @@
                 Validation de la maquette, <br>
                 Intégartion du site, <br>
                 Mise en ligne.
-                 
-             </p>
+            
+            </p>
             </div>
 </div>
 <div class="main__container">
@@ -64,8 +62,7 @@
                 Utilisation des images libres,<br>
                 Programmation avec React et Python,<br>
                 Des bonnes pratiques professionnelles pour le nommage des variables et les fonctions.<br>
-                 
-             </p>
+            </p>
             </div>
 </div>
 <div class="main__container">
@@ -76,12 +73,11 @@
                 Intégration des sections dans des sites,<br>
                 Réalisation des pages d'erreurs Imio,<br>
                 Inspection des sites et proposition des améliorations.<br>
-             </p>
+</p>
 </div>
 
 </div>
 </main>
-
 </template>
 
 <style scoped>
@@ -89,7 +85,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 .main{
     background-image: url("../public/Media/Calque1.jpg");
-   
+
     &__title
     {
         font-family: 'Martian Mono', monospace;
@@ -124,8 +120,6 @@
         {
             &__title{
             color: rgb(230, 0, 126);
-
-
             }
         }
     }
@@ -148,7 +142,7 @@
     &__subtitle
     {
         font-size: 1.5em;
- 
+
     }
     &__container
     {
@@ -178,7 +172,6 @@
     &__subtitle
     {
         font-size: 1em;
- 
     }
     &__container
     {
@@ -191,6 +184,4 @@
     }
 }
 }
-
-
 </style>

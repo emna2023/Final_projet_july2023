@@ -4,13 +4,14 @@
     <h2 class="header__title">Travail de Fin de Formation</h2>
     <!-- <form>
     <label for="site-search">Search the site:</label>
-     <input type="search" id="site-search" name="q">
+    <input type="search" id="site-search" name="q">
     <button>Search</button>
     </form> -->
     <nav class="header__nav">
         <ul class="header__nav__list">
             <li class="header__nav__list__onelist">
-                 <NuxtLink class="header__nav__list__onelist__link" to="/"> Accueil</NuxtLink></li>
+            <NuxtLink class="header__nav__list__onelist__link" to="/"> Accueil</NuxtLink>
+            </li>
             <li class="header__nav__list__onelist"> 
                 <NuxtLink class="header__nav__list__onelist__link" to="/entreprise"> Gourmet Flavors</NuxtLink></li>
             <li class="header__nav__list__onelist">
@@ -75,15 +76,14 @@
             }
         }
     }
-   
-    @media(max-width:750px)
+
+@media(max-width:750px)
 {
     .header
     {
-        &__title{
-        
+        &__title
+        {
         font-size: 1.2em;
-        
         }
         &__nav
         {

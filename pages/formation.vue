@@ -172,7 +172,6 @@
     &__subtitle
     {
         font-size: 2em;
- 
     }
     &__container
     {
@@ -202,7 +201,6 @@
     &__subtitle
     {
         font-size: 1em;
- 
     }
     &__container
     {

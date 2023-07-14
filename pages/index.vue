@@ -3,28 +3,21 @@
     <main class="main">
         <img alt="image_banner" src="public/Media/im10.jpg"  class="main__img"/>
         <h1 class="main__title">Emna KHEMAKHEM</h1>
-        
-      
-
-       
-
 <!--  -->
 <div class="main__container">
             <img class="main__container__img" alt="logo" src="public/Media/profil4.jpg"/>
             <Div class="main__container__secondcontainer">
             <h3 class="main__container__secondcontainer__title"> Présentation </h3>
             <p class="main__container__secondcontainer__description">
-             Titulaire d'un master en systèmes d'information et nouvelles technologies, je souhaite orienter ma carriére vers le développement web.
-             <br>J'ai également une solide
-             expérience pédagogique dans le domaine de  l'enseignement secondaire consolidé par la participation
-             à plusieurs projets Erasmus+.
+            Titulaire d'un master en systèmes d'information et nouvelles technologies, je souhaite orienter ma carriére vers le développement web.
+            <br>J'ai également une solide
+            expérience pédagogique dans le domaine de  l'enseignement secondaire consolidé par la participation
+            à plusieurs projets Erasmus+.
             <br>
             
             <a class="main__container__secondcontainer__description__link"
             href="https://sway.office.com/f2JfIBZCkUaQ5zFd?ref=Link&loc=play"> (Cliquer ici pour voir mes activités pédagogiques)</a><br>
         <br>
-
-        
         </p>
             </Div>
         </div>
@@ -49,7 +42,7 @@
                 Pendant ce stage, j'ai découvert le monde de l'entreprise
                 ainsi que les différents métiers du domaine informatique.<br>
                 En travaillant aux côtés d'experts dans ce domaine, j'ai appris de nouvelles compétences
-                 techniques et de bonnes pratiques de travail.
+                techniques et de bonnes pratiques de travail.
                 Ce stage m'a permis aussi d'utiliser le CMS Plone pour la création des sites web et de découvrir
                 un nouveau concept de travail, l'industrialisation des sites web.
             </p>
@@ -64,23 +57,13 @@
             dans une entreprise dynamique et innovante où je pourrais
             mettre en pratique mes compétences techniques et mes connaissances en matières de développement web.<br>
             Par la suite, Je viserai une carriére en tant que formatrice dans le domaine informatique.
-
             </p>
             </Div>
         </div>
-
-
-
-        <!-- /* -->
-        
-
-    </main>
-
+</main>
 </template>
-
 <script setup>
 </script>
-
 <style lang="scss" >
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 
@@ -98,15 +81,12 @@
         color: rgb(230, 0, 126);
         padding-bottom: 50px;
         padding-top:30px;
-
-
     }
     &__img
     {
         height:20em;
         width:100%;
     }
-
     &__container
     {
         display:grid;
@@ -123,7 +103,6 @@
         &__secondcontainer
         {
             font-size: 20px;
-
             &__title{
             color:  #666666;
             text-align: left;
@@ -140,7 +119,6 @@
 
 }
 }
-
 @media(max-width:900px)
 {
     .main
@@ -157,11 +135,11 @@
     }
     &__container
     {
-       &__secondcontainer
+    &__secondcontainer
         {
             font-size: 15px;
         }
-      }
+    }
     }
 }
 @media(max-width:750px)
@@ -177,12 +155,12 @@
         font-size: 1.5em;
         }
         &__container
-         {
-          &__secondcontainer
-          {
+        {
+        &__secondcontainer
+        {
             font-size: 12px;
-          }
-          }
+        }
+        }
     }
     
 }

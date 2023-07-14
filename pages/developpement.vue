@@ -27,8 +27,8 @@
                             Lettre de recommandation</a></li>
                             <li class="main__container__filesparts__list__element1">
                         <a class="main__container__filesparts__list__element1__link" href="../public/CV.pdf"> 
-                            CV</a></li>
-                  
+                            CV</a>
+                        </li>
                 </ul>
                 
             </div>
@@ -36,14 +36,14 @@
         </div>
 
         <div class="main__firstcontainer">
-           <embed class="main__container__embed" height="1200px" width="1100px" src="../public/CV.pdf" > 
+        <embed class="main__container__embed" height="1200px" width="1100px" src="../public/CV.pdf" > 
         </div>
         
     </main>
 
 </template>
 <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 
 .main{
     font-family: 'Martian Mono', monospace;
@@ -62,49 +62,41 @@
 
 
     }
-         &__img{
-               
-        width: 100%;
-        height: 12em;
-        }
-        &__firstcontainer{
+    &__img
+    {
+    width: 100%;
+    height: 12em;
+    }
+    &__firstcontainer
+    {
         /* margin:60px; */
-        padding-left: 100px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
-        border:solid;
-        border-color: rgb(230, 0, 126);
-        border-radius: 20px;
-        margin:60px;
-        position:relative;
-        overflow: hidden;
-        &__embed
-        {
-            position: absolute;
-            width:100%;
-            height:100%;
-
-            /* padding-left: 500px; */
-            
-        }
-        }
-
-        
-        
-
-    &__container{
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:solid;
+    border-color: rgb(230, 0, 126);
+    border-radius: 20px;
+    margin:60px;
+    position:relative;
+    overflow: hidden;
+    &__embed
+    {
+    position: absolute;
+    width:100%;
+    height:100%;
+    /* padding-left: 500px; */
+    }
+    }
+&__container{
         margin:60px;
         border:solid;
         border-color: rgb(230, 0, 126);
         border-radius: 20px;
-        
         display: grid;
         grid-template-columns: 40% 40%;
         &__filesparts{
             &__list{
                 padding-top: 50px;
-
             }
         }
 
@@ -116,12 +108,10 @@
     .main
     {
         font-size:20px;
-        &__img{
-               
-               height: 10em;
-               }
-        
-    
+        &__img
+        {
+        height: 10em;
+        }
         &__firstcontainer
         {
         border-color: transparent;
@@ -137,18 +127,16 @@
 {
     .main
     {
-        &__img{
-               
-               height: 8em;
-               }
-    font-size: 10px;
-
-    &__firstcontainer
+        font-size: 10px;
+        &__img
+        {
+        height: 8em;
+        }
+        &__firstcontainer
         {
         border-color: transparent;
         }
-   
-     }
+    }
 }
 
 </style>

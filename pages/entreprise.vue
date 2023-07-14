@@ -143,7 +143,7 @@ else
 
 <style scoped>
 
-  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Righteous&display=swap');
 
 .main{
     
@@ -178,60 +178,58 @@ else
         gap:10px;
         padding: 20px;
         font-size: 1em;
-        &__img{
+        &__img
+        {
             border:solid;
             border-radius: 25% 10%;
             border-color: transparent;
         }
         &__productcontainer
         {
-            &__title{
+            &__title
+            {
             padding-top: 10px;
             color: rgb(230, 0, 126);
             padding-bottom: 10px;
             text-align: left;
-
-
             }
         }
         &__form
         {
-            border:solid;
-            border-color: rgb(230, 0, 126);
-            padding:20px;
-            display:flex;
-            flex-direction: column;
-            width:600px;
+        border:solid;
+        border-color: rgb(230, 0, 126);
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        width:600px;
 
-            &__label{
-                color: rgb(230, 0, 126);
-                font-size: 25px;
-
-
-            }
-            &__text{
-                border:solid;
-                border-color: rgb(230, 0, 126);
-
-                color: #666666;
-                width:300px;
-
-            }
-            &__mail{
-                border:solid;
-                border-color: rgb(230, 0, 126);
-                color: #666666;
-                width:300px;
-                margin-bottom: 30px;
-            }
-            &__button{
-              border:solid;
-              width:100px;
-              background-color: rgb(230, 0, 126);
-              font-size: 25px;
-              border-color: rgb(230, 0, 126);
-              color: white;
-              }
+        &__label
+        {
+        color: rgb(230, 0, 126);
+        font-size: 25px;
+        }
+        &__text
+        {
+        border:solid;
+        border-color: rgb(230, 0, 126);
+        color: #666666;
+        width:300px;
+        }
+        &__mail{
+        border:solid;
+        border-color: rgb(230, 0, 126);
+        color: #666666;
+        width:300px;
+        margin-bottom: 30px;
+        }
+        &__button{
+        border:solid;
+        width:100px;
+        background-color: rgb(230, 0, 126);
+        font-size: 25px;
+        border-color: rgb(230, 0, 126);
+        color: white;
+        }
         }
     }
     
@@ -243,50 +241,45 @@ else
     {
         &__bannercontainer
         {
-            &__img{
-            height:15em;
-            }
+        &__img
+        {
+        height:15em;
+        }
         }
         &__title
-    {
-        
+       {
         font-size: 2em;
-        
-    }
-    &__subtitle
-    {
+        }
+        &__subtitle
+        {
         font-size: 2em;
- 
-    }
+        }
     
     &__container
     {
         &__productcontainer
         {
-            font-size: 0.8em;
-            
+        font-size: 0.8em;
         }
         &__form
         {
-            
-            width:400px;
-
-            &__label{
-                font-size: 20px;
-
-
-            }
-            &__text{
-                width:300px;
-
-            }
-            &__mail{
-                width:300px;
-            }
-            &__button{
-              width:100px;
-              font-size: 20px;
-              }
+        width:400px;
+        &__label
+        {
+        font-size: 20px;
+        }
+        &__text
+        {
+        width:300px;
+        }
+        &__mail
+        {
+        width:300px;
+        }
+        &__button{
+        width:100px;
+        font-size: 20px;
+        }
         }
     }
 
@@ -298,40 +291,34 @@ else
     {
     &__bannercontainer
     {
-            &__img
-            {
-            height:10em;
-            }
+    &__img
+    {
+    height:10em;
+    }
     }
     &__title
     {
-        
-        font-size: 1.5em;
-        
+    font-size: 1.5em;
     }
     &__subtitle
     {
-        font-size: 1em;
- 
+    font-size: 1em;
     }
     &__container
     {
     &__productcontainer
-        {
-            font-size: 0.7em;
-    
+    {
+    font-size: 0.7em;
     }
     &__form
-        {
-            
-            width:250px;
-
-            &__label{
-                font-size: 15px;
-
-
-            }
-            &__text{
+    {
+    width:250px;
+    &__label
+    {
+    font-size: 15px;
+    }
+    &__text
+    {
                 width:200px;
 
             }
@@ -339,13 +326,10 @@ else
                 width:200px;
             }
             &__button{
-              width:80px;
-              font-size: 15px;
-              }
+            width:80px;
+            font-size: 15px;
+            }
         }
-
-   
-
     }
 
 }
